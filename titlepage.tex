@@ -1,0 +1,93 @@
+\selectlanguage{ngerman}
+
+% setup page dimensions for titlepage
+\newgeometry{left=2.4cm,right=2.4cm,bottom=2.5cm,top=2cm}
+
+% force baselineskip and parindent
+\newlength{\tmpbaselineskip}
+\setlength{\tmpbaselineskip}{\baselineskip}
+\setlength{\baselineskip}{13.6pt}
+\newlength{\tmpparindent}
+\setlength{\tmpparindent}{\parindent}
+\setlength{\parindent}{17pt}
+
+% first titlepage
+\thispagestyle{tuinftitlepage}
+
+%
+% Kludge: for each titlepage set \pagenumbering to a different
+% style. This is used to fix a problem with hyperref, because there
+% are multiple "page 1" and hyperref hates that
+%
+\pagenumbering{Alph}
+
+\begin{center}
+{\ \vspace{4cm}}
+
+\begin{minipage}[t][2.8cm][s]{\textwidth}%
+\centering
+\thesistitlefontHUGE\sffamily\bfseries\tuinfthesistitle\\
+\bigskip
+{\thesistitlefonthuge\sffamily\bfseries\tuinfthesissubtitle}
+\end{minipage}
+
+\vspace{4cm}
+
+{\thesistitlefontLARGE\sffamily \tuinfthesistype}
+
+\vspace{6mm}
+
+{\thesistitlefontlarge\sffamily von}
+
+\vspace{6mm}
+
+{\thesistitlefontLarge\sffamily\bfseries \tuinfthesisauthor}
+
+\vspace{1.5mm}
+
+{\thesistitlefontlarge\sffamily Matrikelnummer \tuinfthesismatrikelno} 
+
+\vspace{7cm}
+
+\vspace{0pt}\raggedright\thesistitlefontnormalsize\sffamily
+
+
+\begin{minipage}[t][1cm][t]{\textwidth}%
+  \vspace{0pt}\raggedright\thesistitlefontnormalsize\sffamily
+  %
+  \begin{tabbing}%
+	    \hspace{19mm} \= \hspace{66mm} \kill
+	    \tuinfthesisbetreuung: \> \tuinfthesisbetreins
+  \end{tabbing}
+\end{minipage}
+
+\begin{minipage}[t][1.5cm][t]{\textwidth}%
+  \vspace{0pt}\sffamily\thesistitlefontnormalsize
+  \begin{tabbing}%
+    \hspace{35mm}  \kill
+    Wien, \tuinfthesisdate  \\    \end{tabbing}
+\end{minipage}
+
+\end{center}
+
+% we're done with the titlepages, proceed with default pagenumbering
+\pagenumbering{roman}
+
+% restore baselineskip
+\setlength{\baselineskip}{\tmpbaselineskip}
+\setlength{\parindent}{\tmpparindent}
+
+% back to normal geometry
+\restoregeometry
+
+\newgeometry{left=2.5cm,right=2.5cm,bottom=2.5cm,top=2cm}
+
+\selectlanguage{english}
+
+%%% Local Variables:
+%%% TeX-PDF-mode: t
+%%% TeX-debug-bad-boxes: t
+%%% TeX-parse-self: t
+%%% TeX-auto-save: t
+%%% reftex-plug-into-AUCTeX: t
+%%% End:
