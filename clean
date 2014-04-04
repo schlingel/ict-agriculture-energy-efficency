@@ -1,0 +1,11 @@
+#!/bin/sh
+rm -rf ./thesis.a*
+rm -rf ./thesis.b*
+rm -rf ./thesis.d*
+rm -rf ./thesis.l*
+rm -rf ./thesis.o*
+rm -rf ./thesis.p*
+rm -rf ./thesis.tcp
+rm -rf ./thesis.toc
+rm -rf ./titlepage.aux
+rm -rf ./thesis.tps
