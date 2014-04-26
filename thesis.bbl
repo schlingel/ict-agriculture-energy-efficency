@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+
+\bibitem{jour:Andreopoulou2012}
+ZS~Andreopoulou.
+\newblock {Green Informatics: ICT for green and Sustainability}.
+\newblock {\em Journal of Agricultural Informatics}, 3(2):1--8, 2013.
+
+\bibitem{jour:Aqeel-ur-Rehman2011}
+SZA Aqeel-ur Rehman.
+\newblock {ONTAgri: scalable service oriented agriculture ontology for
+  precision farming}.
+\newblock {\em 2011 international conference on agricultural and \ldots}, 2011.
+
+\bibitem{jour:Aubert2012}
+Benoit~a. Aubert, Andreas Schroeder, and Jonathan Grimaudo.
+\newblock {IT as enabler of sustainable farming: An empirical analysis of
+  farmers' adoption decision of precision agriculture technology}.
+\newblock {\em Decision Support Systems}, 54(1):510--520, December 2012.
+
+\bibitem{jour:Auernhammer2001}
+Hermann Auernhammer.
+\newblock {Precision farming—the environmental challenge}.
+\newblock {\em Computers and electronics in agriculture}, 30(1-3):31--43,
+  February 2001.
+
+\bibitem{jour:Burkhart2012}
+Thomas Burkhart, Stephan Wolter, and Markus Schief.
+\newblock {A comprehensive approach towards the structural description of
+  business models}.
+\newblock {\em Proceedings of the \ldots}, page~88, 2012.
+
+\bibitem{jour:Kamalesh2014}
+Murari~Devakannan Kamalesh and Mani Gandan.
+\newblock {Increasing the Production Rate by Automation Systems in Fields}.
+\newblock {\em International Journal of Computer Science and Informations
+  Technologies}, 5(2):1574--1576, 2014.
+
+\bibitem{jour:Kemper2011}
+Alfons Kemper and Thomas Neumann.
+\newblock {CONFERENCE: HyPer: A Hybrid OLTP\&OLAP Main Memory Database System
+  Based on Virtual Memory Snapshots}.
+\newblock pages 195--206, 2011.
+
+\bibitem{proc:Khaydarov2012}
+Zafar Khaydarov, Teemu~H. Laine, Silvia Gaiani, Jinchul Choi, and Chaewoo Lee.
+\newblock {Context-aware agriculture organizer}.
+\newblock {\em Proceedings of the 6th International Conference on Ubiquitous
+  Information Management and Communication - ICUIMC '12}, page~1, 2012.
+
+\bibitem{jour:Lu2007}
+Gang Lu.
+\newblock {An adaptive energy-efficient and low-latency MAC for tree-based data
+  gathering in sensor networks}.
+\newblock {\em \ldots and Mobile Computing}, (May):863--875, 2007.
+
+\bibitem{misc:Mancuso2006}
+M.~Mancuso and F.~Bustaffa.
+\newblock {A wireless sensors network for monitoring environmental variables in
+  a tomato greenhouse}.
+\newblock {\em 2006 IEEE International Workshop on Factory Communication
+  Systems}, pages 107--110, 2006.
+
+\bibitem{misc:Mikkola2013}
+Hannu Mikkola, Tommy Dalgaard, Demetres Briassoulis, Panos Panagakis,
+  Athanasios Balafoutis, Andreas Meyer-Aurich, Fatima Baptista, Luis Silva,
+  Dina Murcho, Miguel {de Castro Neto}, Ryszard Myhan, Zbigniew Brodziński,
+  Mariusz Stolarski, Ewelina Olba-Zięty, Janusz Gołaszewski, Herman
+  Schoorlemmer, and Chris de~Visser.
+\newblock {D4.5. Agenda for Transnational Co-operation on energy efficency in
+  agriculture}.
+\newblock Technical report, 2013.
+
+\bibitem{jour:Ruiz-Garcia2010}
+L.~Ruiz-Garcia, G.~Steinberger, and M.~Rothmund.
+\newblock {A model and prototype implementation for tracking and tracing
+  agricultural batch products along the food chain}.
+\newblock {\em Food Control}, 21(2):112--121, February 2010.
+
+\bibitem{jour:Schulze2007}
+Christian Schulze, Joachim Spilke, and Wolfgang Lehner.
+\newblock {Data modeling for Precision Dairy Farming within the competitive
+  field of operational and analytical tasks}.
+\newblock {\em Computers and electronics in agriculture}, 59(1-2):39--55,
+  November 2007.
+
+\bibitem{jour:Shaikh2010}
+Zubair~A Shaikh, Noor~A Shaikh, Noman Islam, and Emerging Sciences.
+\newblock {An Integrated Framework to Develop Context-Aware Sensor Grid for
+  Agriculture 1}.
+\newblock {\em Australian Journal of Basic and Applied Sciences, 4(5):922-931},
+  4(5):922--931, 2010.
+
+\bibitem{jour:Sorensen2010}
+C.G. S\o~rensen, S.~Fountas, E.~Nash, L.~Pesonen, D.~Bochtis, S.M. Pedersen,
+  B.~Basso, and S.B. Blackmore.
+\newblock {Conceptual model of a future farm management information system}.
+\newblock {\em Computers and Electronics in Agriculture}, 72(1):37--47, June
+  2010.
+
+\bibitem{art:Wang2011}
+Xiaoshan Wang and Qingwen Qi.
+\newblock {Design and realization of precision agriculture information system
+  based on 5S}.
+\newblock {\em 2011 19th International Conference on Geoinformatics}, pages
+  1--4, June 2011.
+
+\bibitem{proc:Zhou2013}
+Jianjun Zhou, Xiaofang Wang, Xiu Wang, Wei Zou, and Jichen Cai.
+\newblock {Greenhouse Monitoring and Control System Based on Zigbee}.
+\newblock {\em Proceedings of the 2nd International Conference on Computer
+  Science and Electronics Engineering (ICCSEE 2013)}, (Iccsee):2361--2364,
+  2013.
+
+\bibitem{jour:Zhu2009}
+Zhiqing Zhu, Rongmei Zhang, and Jieli Sun.
+\newblock {Research on GIS-Based Agriculture Expert System}.
+\newblock {\em 2009 WRI World Congress on Software Engineering}, pages
+  252--255, 2009.
+
+\end{thebibliography}

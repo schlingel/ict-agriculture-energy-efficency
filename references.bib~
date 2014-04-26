@@ -1,6 +1,69 @@
 % This file was created with JabRef 2.4.1.
 % Encoding: Cp1252
 
+@article{jour:Kemper2011,
+author = {Kemper, Alfons and Neumann, Thomas},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/HyPer - A Hybrid OLTP\&OLAP Main Memory Database.pdf:pdf},
+isbn = {9781424489602},
+keywords = {[Electronic Manuscript]},
+mendeley-groups = {Bachelor Thesis},
+pages = {195--206},
+title = {{CONFERENCE: HyPer: A Hybrid OLTP\&OLAP Main Memory Database System Based on Virtual Memory Snapshots}},
+year = {2011}
+}
+
+
+@article{jour:Burkhart2012,
+address = {New York, New York, USA},
+author = {Burkhart, Thomas and Wolter, Stephan and Schief, Markus},
+doi = {10.1145/2457276.2457294},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/A COMPREHENSIVE APPROACH TOWARDS THE.pdf:pdf},
+isbn = {9781450317559},
+journal = {Proceedings of the \ldots},
+mendeley-groups = {Bachelor Thesis},
+pages = {88},
+publisher = {ACM Press},
+title = {{A comprehensive approach towards the structural description of business models}},
+url = {http://dl.acm.org/citation.cfm?doid=2457276.2457294 http://dl.acm.org/citation.cfm?id=2457294},
+year = {2012}
+}
+
+
+@article{jour:Sorensen2010,
+author = {S\o rensen, C.G. and Fountas, S. and Nash, E. and Pesonen, L. and Bochtis, D. and Pedersen, S.M. and Basso, B. and Blackmore, S.B.},
+doi = {10.1016/j.compag.2010.02.003},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Conceptual model of a future farm management information system.pdf:pdf},
+issn = {01681699},
+journal = {Computers and Electronics in Agriculture},
+mendeley-groups = {Bachelor Thesis},
+month = jun,
+number = {1},
+pages = {37--47},
+title = {{Conceptual model of a future farm management information system}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0168169910000396},
+volume = {72},
+year = {2010}
+}
+
+
+@article{jour:Ruiz-Garcia2010,
+author = {Ruiz-Garcia, L. and Steinberger, G. and Rothmund, M.},
+doi = {10.1016/j.foodcont.2008.12.003},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/A model and prototype implementation for tracking and tracing agricultural.pdf:pdf},
+issn = {09567135},
+journal = {Food Control},
+mendeley-groups = {Bachelor Thesis},
+month = feb,
+number = {2},
+pages = {112--121},
+publisher = {Elsevier Ltd},
+title = {{A model and prototype implementation for tracking and tracing agricultural batch products along the food chain}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0956713508003307},
+volume = {21},
+year = {2010}
+}
+
+
 @article{jour:Lu2007,
 author = {Lu, Gang},
 doi = {10.1002/wcm},
