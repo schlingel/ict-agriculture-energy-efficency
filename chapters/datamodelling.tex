@@ -1,3 +1,78 @@
+\section{Datenmodelle zur Effizienzberechnung}
+Die Basis für eine jede Optimierung ist es Kennzahlen zu ermitteln die es ermöglichen die Effizenz vor und nach der Optimierung zu vergleichen. Das bedeutet, dass der Einsatz von gewissen Mitteln und deren Ertrag gemessen wird. 
+
+In der Literatur werden zwei verschiedene Modellierungsklassen zur Effizenzanalyse empfohlen:\cite{jour:Curtiss2012}\cite{conf:Jian2013}
+\begin{itemize}
+	\item \textit{Data Envelopment Analysis}, kurz DEA
+	\item \textit{Stochastische Frontier Analyse}, kurz SFA
+\end{itemize}
+
+\subsection{Data Envelopment Analysis}
+
+DEA ist eine parameterlose Methode um die Effizenz von so genannten \textit{Decision Making Units}, kurz DMUs, zu messen. Eine DMU kann einen oder mehrere Eingaben erwarten und kann auch einen oder mehrere Ausgabewerte besitzen. Um die Effizenz zu messen, wird eine einzige \textit{virtuelle} Eingabe auf eine einzige \textit{virtuelle} Ausgabe abgebildet ohne dabei eine vordefinierte Produktionsfunktion zu erstellen.\cite{jour:Cullinane2006}
+
+Sei $x_k=(x_1k,x_2k,...,x_Mk) \in R^{M}_+$ um die Ausgabewerte $y_k=(y_1k,y_2k,...,y_Nk) \in R^{M}_+$ zu produzieren. Dann bilden die Zeilenvektoren $x_k$ und $y_k$ die Datenmatrizen $X$ bzw. $Y$. Zusätzlich sei $\lambda = (\lambda_1,\lambda_2,...,\lambda_K) \in R^{K}_+$ ein positiver Vektor der die lineare Kombination aus $K$ Firmen. Als letzte zu definierende Größe sei $e = (1,1,...,1)$ ein passend dimensionierter Vektor von Einheitsgrößen.\cite{jour:Cullinane2006}
+
+Das ausgabeorientierte DEA-Modell maximiert die proportionale Steigerung der Ausgabe unter der Bedingung dass der Produktionsraum nicht verlassen wird. Ein ausgabenorientiertes Messproblem kann als eine Reihe von $K$ linearer Programmierungsprobleme abgebildet werden.\cite{jour:Cullinane2006}. Für DEA gibt es mehrere Modelle wie das Verhältnis zu Eingabe/Ausgabe skalieren kann. Zwei häufig verwendete Varianten sind DEA-CCR, nach Charnes, und DEA-BCC, nach Bankes. DEA-CCR beschreibt im Gegensatz zu DEA-BCC Modelle in denen sich Eingabewerte zu Ausgabewerte proportional verändern. Die nötigen \textit{Constraints} für das Lineare Programmieren werden durch beschrieben.
+
+\begin{equation}\label{eq:maxu}
+	\begin{tabular}{rr}
+		$\underset{U,\lambda}{max}$ & $U$	 	
+	\end{tabular}
+\end{equation}
+
+\begin{equation}\label{eq:uy}
+	\begin{tabular}{rr}
+		$Maximiert$ & $U_{y_k}' - Y'\lambda \leqslant 0$	 	
+	\end{tabular}
+\end{equation}
+
+
+\begin{equation}\label{eq:xylambda}
+	\begin{tabular}{rr}
+		$$ & $X_{y_k}'\lambda - x_k' \leqslant 0$	 	
+	\end{tabular}
+\end{equation}
+
+\begin{equation}\label{eq:lambdagezero}
+	\begin{tabular}{rr}
+		$$ & $x_k' \geqslant 0$ (DEA-CCR)	 	
+	\end{tabular}
+\end{equation}
+
+\begin{equation}\label{eq:elambdaequalsone}
+	\begin{tabular}{rr}
+		$$ & $e\lambda' = 1$ (DEA-BCC)	 	
+	\end{tabular}
+\end{equation}
+
+Die ausgabeorientierte Messung der technischen Effizenz der k-ten DMU, bezeichnet als $TE_k$, kann so berechnet werden:
+
+\begin{equation}
+	TE_k= \frac{1}{U_k}
+\end{equation}
+
+Eine weitere Kennzahl die mit DEA-CCR\eqref{eq:lambdagezero} bzw. DEA-BCC\eqref{eq:elambdaequalsone} berechnet werden kann ist die Skalierungseffizenz $SE_k$:
+
+\begin{equation}
+	SE_k = \frac{U_{CCR_k}}{U_{BCC_k}}
+\end{equation}
+
+\subsection{Stochastische Frontier Analysis}
+Im Gegensatz zu DEA, nimmt SFA an, dass es eine Funktion mit einem oder mehreren Parametern gibt, die, die Produktionseingabewerte auf die Ausgabewerte abbilden kann. Zusätzlich hat SFA den großen Vorteil, dass die Funktionen so gestaltet werden können, dass nicht nur technische (In-)Effizenz den Ausgabewert beeinflusst sondern auch Ereignisse außerhalb des Einflussbereichs des Produzenten. Dementsprechend besteht der Fehlerterm in SFA aus zwei Komponenten:
+\begin{itemize}
+	\item Eine einseitige Komponente die, die Effekte von Ineffizenz relative zur stochastischen Marke (\textit{stochastic frontier}) einfängt.
+	\item Eine symmetrische Komponente die es erlaubt eine zufällige Variation der Marken (\textit{frontiers}) über Firmen hinweg abzubilden und so die Effekte von Messfehlern, anderem statistischem Rauschen und zufälligen Schocks außerhalb der Firmenkontrolle einzufangen.
+\end{itemize}
+
+Daraus folgt, dass eine SFA als Gleichung abgebildet werden kann in der die Effizenz der Firma \textit{k} als $U_k$ bezeichnet wird, wobei $U_k$ positiv sein muss. Die oben angesprochene Komponente, die das statistische Rauschen einfängt, wird als $V_k$ bezeichnet, wobei $V_k$ sowohl negativ wie auch positiv sein kann.\cite{jour:Cullinane2006}
+
+\begin{equation}\label{eq:sfadef}
+	y_k = f(x_1k,x_2k,...,x_Mk,U_k,V_k)
+\end{equation}
+
+Um solche SFAs zu lösen, muss zu allerst ein stochastisches Frontier-Modell definiert werden. Diese beruhen meistens auf Werten die mittels Maximum-Likelihood-Methode geschätzt wurden.
+
 \section{Sichten von Datenmodellen}
 Das Modellieren effizienter Datenmodelle spielt in verschiedenen Arten von ICTs eine Rolle. Im folgenden Kapitel wird auf die für Planungs- und Designsysteme relevanten Modellierungen eingegangen. Es wird nicht auf andere Bereiche eingegangen in der Datenmodellierung eine Rolle spielt. Zum Beispiel wäre die Modellierung von Datenstrukturen und Protokollen die erlauben die Daten energiesparend zu verarbeiten, wie es unter anderem in einem Paper von Gang\cite{jour:Lu2007} vorgestellt wurde.
 
