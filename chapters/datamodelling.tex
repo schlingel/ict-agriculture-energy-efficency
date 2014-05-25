@@ -69,6 +69,9 @@ In \textit{Cost Efficiency and Farm Self-selection in Precision Farming: The Cas
 
 Es wird zusätzlich vorgeschlagen, die daraus abgeleitete Betriebseffizenzbewertungen mittels \textit{Endogenous Switching Regression} zu analysieren.
 
+Blancard und Martin weisen in \textit{Energy efficiency measurement in agriculture with imprecise energy content information} darauf hin, dass die Messungen der verbrauten Energie Schwankungen und Unsicherheiten unterworfen ist. Deshalb schlagen sie in der selben Arbeit ein auf DEA basierendes Modell vor, um diese Unsicherheiten bei der Berechnung der Energieeffizenz mit ein zu beziehen um robuste Ergebnise zu erhalten.\cite{jour:Blancard2014}
+
+Der Ansatz basiert darauf, dass eine sg. \textit{Assurance Region}, kurz AR, gefunden wird die eine pessimistische und eine optimistische Grenze fest legt. Diese Grenze wird für jede DMU durch den wünschenswertesten bzw. am wenigsten wünschenswertesten (\textit{least favourable}) errechneten Energieverbrauch (\textit{energy content scenario}) definiert.\cite{jour:Blancard2014}
 
 \subsection{Stochastische Frontier Analysis}
 Im Gegensatz zu DEA, nimmt SFA an, dass es eine Funktion mit einem oder mehreren Parametern gibt, die, die Produktionseingabewerte auf die Ausgabewerte abbilden kann. Zusätzlich hat SFA den großen Vorteil, dass die Funktionen so gestaltet werden können, dass nicht nur technische (In-)Effizenz den Ausgabewert beeinflusst sondern auch Ereignisse außerhalb des Einflussbereichs des Produzenten. Dementsprechend besteht der Fehlerterm in SFA aus zwei Komponenten:
@@ -126,7 +129,21 @@ Fehlenden Parameter können mittels \textit{Maximum Likelyhood} geschätzt werde
 \end{equation}
 
 \subsection{Energieeffizenz-Modelling Frameworks}
-In \textit{Energy efficency in Agriculture-Oportunities, Constratins and Research needs}\cite{jour:Meyer-Aurich2013} stellen Meyer-Aurich, Balafoutis und Daalgard ein Framework vor, dass zum Ermitteln der Energieeffizenz von eingesetzten Technologien entwickelt wurde.
+In \textit{Energy efficency in Agriculture-Oportunities, Constratins and Research needs}\cite{jour:Meyer-Aurich2013} stellen Meyer-Aurich, Balafoutis und Daalgard ein Framework vor, dass zum Ermitteln der Energieeffizenz von eingesetzten Technologien verschiedener Nationen in Europa entwickelt wurde.
+
+Um die jeweiligen Betriebe vergleichbar zu machen, wurden drei Kennzahlen aus den eingesetzten Technologien abgeleitet.
+
+\begin{itemize}
+	\item \textit{Final Energy Consumption}, kurz FEC, bezeichnet den Energieverbauch des Endkunden unabhängig vom Energieeinsatz.
+	\item \textit{Primary Energy Consumption}, kurz PEC, bezeichnet den Energieverbrauch der ohne jegliche Transformation zwischen Energiequelle und Verbraucher auftritt.
+	\item Das Volumen der für die Produktion nötigen Güter.
+\end{itemize}
+
+Die Umrechnungsfaktoren in der Arbeit der Eingabevolumina stammen hauptsächlich aus dem \href{http://www.biograce.net/}{BioGrace-Projekt}.\cite{jour:Meyer-Aurich2013} Bei dem BioGrace-Projekt handelt es sich um eine Initiative um die Berechnung des Ausstoßes von Treibhausgasen zu harmonisieren.
+
+Die resultierenden Kennzahlen zeigen verschiedene Punkte auf. Innerhalb der Betriebe die Viehzucht betreiben, liegt der Fokus zur Steigerung der Energieeffizenz auf der optimierten Fütterung der Tiere. Bei Betrieben die Pflanzen anbauen, liegt der Fokus auf optimiertem Einsatz von Düngemittel. Die Empfehlung des Autors ist in Betrieben \textit{PA} einzuführen bzw. zu verstärken, da bereits simple Messverfahren den Düngemitteleinsatz signifkant reduzieren können.\cite{jour:Meyer-Aurich2013}
+
+
 
 \section{Sichten von Datenmodellen}
 Das Modellieren effizienter Datenmodelle spielt in verschiedenen Arten von ICTs eine Rolle. Im folgenden Kapitel wird auf die für Planungs- und Designsysteme relevanten Modellierungen eingegangen. Es wird nicht auf andere Bereiche eingegangen in der Datenmodellierung eine Rolle spielt. Zum Beispiel wäre die Modellierung von Datenstrukturen und Protokollen die erlauben die Daten energiesparend zu verarbeiten, wie es unter anderem in einem Paper von Gang\cite{jour:Lu2007} vorgestellt wurde.

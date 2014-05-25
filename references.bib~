@@ -1,6 +1,50 @@
 % This file was created with JabRef 2.4.1.
 % Encoding: Cp1252
 
+@article{jour:Pazurkiewicz2014,
+author = {Pazurkiewicz, Tomasz and Gregorczyk, Michal and Iwanicki, Konrad},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/NarrowCast A New Link-Layer Primitive for Gossip-Based Sensornet Protocols.pdf:pdf},
+journal = {Wireless Sensor Networks},
+mendeley-groups = {Bachelor Thesis},
+title = {{NarrowCast: A New Link-Layer Primitive for Gossip-Based Sensornet Protocols}},
+url = {http://link.springer.com/chapter/10.1007/978-3-319-04651-8\_1},
+year = {2014}
+}
+
+
+@article{jour:Srbinovska2014,
+author = {Srbinovska, Mare and Gavrovski, Cvetan and Dimcev, Vladimir and Krkoleva, Aleksandra and Borozan, Vesna},
+doi = {10.1016/j.jclepro.2014.04.036},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Environmental parameters monitoring in precision agriculture using wireless sensor.pdf:pdf},
+issn = {09596526},
+journal = {Journal of Cleaner Production},
+mendeley-groups = {Bachelor Thesis},
+month = may,
+publisher = {Elsevier Ltd},
+title = {{Environmental parameters monitoring in precision agriculture using wireless sensor networks}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S0959652614003916},
+year = {2014}
+}
+
+
+@article{jour:Blancard2014,
+author = {Blancard, St\'{e}phane and Martin, Elsa},
+doi = {10.1016/j.enpol.2013.10.071},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Energy Efficiency measurement in agriculture with imprecise energy content information.pdf:pdf},
+issn = {03014215},
+journal = {Energy Policy},
+keywords = {Data Envelopment Analysis,Energy efficiency,Uncertainty,data envelopment analysis},
+mendeley-groups = {Bachelor Thesis},
+month = mar,
+pages = {198--208},
+publisher = {Elsevier},
+title = {{Energy efficiency measurement in agriculture with imprecise energy content information}},
+url = {http://linkinghub.elsevier.com/retrieve/pii/S030142151301094X},
+volume = {66},
+year = {2014}
+}
+
+
 @article{jour:Huang2013,
 author = {Huang, Shanyu and Miao, Yuxin and Zhao, Guangming and Ma, X},
 file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Estimating Rice Nitrogen Status with Satellite Remote Sensing in Northeast China.pdf:pdf},

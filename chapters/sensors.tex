@@ -47,6 +47,20 @@ Im Gegensatz dazu, werden die gemessenen Daten in der P2P-Architektur im Netzwer
 
 Aus diesen Gründen spricht Bhargava die Empfehlung aus, die Auswertung auf einen Server welcher über das Internet erreichbar ist auszulagern.\cite{jour:Bhargava2014}
 
+In \textit{Environmental parameters monitoring in precision agriculture using wireless sensor
+networks} wird ein Sensornetzwerk für ein Paradeiserglashaus entworfen. Die verwendeten Sensoren maßen die Temperatur, Erdfeuchtigkeit und pH-Wert der Erde. Im Unterschied zu Bhargava wurde ein Gossip-Protokoll zur Kommunikation innerhalb des Sensornetzwerks verwendet.\cite{jour:Srbinovska2014}
+
+Gossip-Protokolle sind definiert durch eine Netzwerktopologie ohne Superknoten. Die einzelnen Knoten besitzen einen lokalen Zustand der im Netzwerk mittels Broadcasts in definierten Abständen mitgeteilt wird. Dies hat zur Folge, dass einzelne Knoten ohne Aufwand hinzugefügt oder entfernt werden können. Dieses Vorgehen hat Vorteile da keine Superknoten benötigt werden die das Routing übernehmen, ist jedoch energieaufwendig. Die Energieaufnahme versucht Pazurkiewicz in \textit{NarrowCast: A New Link-layer Primitive for Gossip-based Sensornet Protocols} mit seinem NarrowCast-Protokol zu mindern.\cite{jour:Pazurkiewicz2014}
+
+Srbinovska und seine Kollegen haben sich für ein Gossip-Protokoll in ihrem Testaufbau entschieden, da für das System ein Temperaturdurchschnittswert interessant ist. Durch die Broadcasts der jeweilig lokal gemessenen Temperaturen wurden lokal auf den Knoten die Durchschnittswerte errechnet und gespeichert. Im Experiment wurde fest gestellt, dass die Durchschnittswerte der einzelnen Knoten annäherend dem tatsächlichen Wert entsprach. Dies dauerte zwischen 15 und 20 Broadcasts.\cite{jour:Srbinovska2014}
+
+Die Autoren kamen abschließend zu dem Ergebnis, dass bei der Planung auf mehrere Aspekte geachtet werden muss.\cite{jour:Srbinovska2014}
+\begin{itemize}
+	\item Auswahl des effizientesten Frequenzbereichs für die Funkverbindung. Die Frequenz der WiFi-Transmitter ist entscheidend für die Energieeffizenz der Sensor-Knoten.
+	\item Die Preise der verfügbaren Hardware-Module ist zu hoch.
+	\item Vor dem Ausrollen solcher Sensornetzwerke in großen Anlagen, müssen weitere Pilotprojekte durchgeführt werden um den Erfolg nicht zu gefährden.
+\end{itemize}
+
 \section{Satellitensysteme als Datenquellen}
 
 In \textit{Estimating rice nitrogen status with satellite remote sensing in Northeast China} wird eine auf Satellitenbildern aufbauende Analyse des Reisanbaus vorgeschlagen. Dieses Vorgehen hat den Vorteil, dass zum einen die Gebiete nicht mit Sensorknoten bestückt werden müssen - was im Falle von Nassgebieten wie Reisfeldern weitere Probleme bereit hält - und dass die lokalen Messinstrumente nur über längere Zeitperioden verlässliche Daten liefern.\cite{jour:Huang2013} 
