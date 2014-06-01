@@ -65,6 +65,45 @@ Neben den erwähnten Sensoren wird in \textit{A new Expert System for greenness 
 
 \section{Satellitensysteme als Datenquellen}
 
+Geoinformationssysteme, sind Informationssysteme die Lageinformationen verarbeiten, aufbereiten und bereitstellen. Allerdings wird in der Literatur zwischen vier verschiedenen Definitionen unterschieden:\cite{book:Carosio2006}
+
+\begin{itemize}
+	\item \textit{Raumbezogene Informationssysteme}, kurz RIS, sind laut \cite{book:Cariosio2006} geordnete Sammlungen von Informationen, in welchen Lagenangaben in einem einheitlichen Bezugssystem eine Verknüpfung zwischen den enthaltenen Daten und der Umwelt ermöglichen.
+	\item \textit{Geographisches Informationssystem}, kurz GIS, ist ein Informationssystem das raumbezogene Daten über Atmosphäre, Erdoberfläche, Lithosphäre enthält. Zusätzlich ermöglicht ein GIS die systematische Erfassung, Aktualisierung, Verarbeitung und Umsetzung der Daten auf der Grundlage eines einheitlichen räumlichen Bezugssystems.
+	\item \textit{Landinformationssysteme}, kurz LIS, sind Informationsysteme die bei Fragen in der Verwaltung, Wirtschaft oder Rechtsproblemen Auskünfte geben können. 
+	\item \textit{Geoinformationssysteme}, kurz ebenfalls GIS, sind rechnergestützte Systeme die aus Hardware, Software, Daten und der Anwendung bestehen. Diese Systeme können dazu genutzt werden raumbezogene Daten digital zu erfassen, modellieren, reorganisieren, analysieren und alphanumerisch und graphisch präsentieren können.
+\end{itemize}
+
+Die vorgestellten Publikationen verwenden die vierte Definition.
+
+\subsection{Kenzahlen in GI-Systemen}
+In \textit{Analysis and Modeling of Agricultural Land use using Remote Sensing and Geographic Information System: a Review} gibt Vibhute einen Überblick über verwendete Sensortechnologien und Kennzahlen die zur Auswertung heran gezogen werden können.  \cite{jour:Vibhute2013}
+
+\subsubsection{Landnutzungseffizenz}
+
+Um zu ermitteln wie effizient der verfübgare Platz genutzt wird kann das Verhältnis von \textit{Land Use} zu \textit{Land Cover} heran gezogen werden. Land Cover ist die Kennzahl die beschreibt wie viel der Erdoberfläche von Material bedeckt ist. Dazu zählen Gras, Asphalt, Bäume, etc. Demgegenüber steht Land Use, was definiert wie viel der Erdoberfläche vom Menschen genutzt wird.
+
+Die Rohdaten werden aus Satellitenbildern gewonnen. Die Elemente in den Bildern können dann mit verschiedenen Klassifierern zu Land Use bzw. Land Cover zugeordnet werden. Vibhute stellt dazu einige Varianten in \cite{jour:Vibhute2013} vor. (z.B. Maximum-Likelyhood-Classifier, Supervised Classifier, etc.)
+
+\subsubsection{Vegetationsindizes} 
+Vegetationsindizes sind Kennzahlen die aus Messungen von elektromagnetischer Strahlung um das infrarote Spektrum herum gewonnen werde.\cite{jour:Jackson1991}
+
+Vibhute stellt in \cite{jour:Vibhute2013} eine Tabelle der verschiedenen Vegetationsindizes auf:
+
+\begin{table}[h]
+\begin{tabular}{|p{5cm}|p{9cm}|}
+\textbf{Vegetationsindex}                                  & \textbf{Formel} \\
+RVI (Ratio Vegetation Index)                               & $RVI = \frac{NIR}{RED}$                 \\
+NDVI (Normalized Difference Vegetation Index)              & $NDVI = \frac{NIR - RED}{NIR + RED}$                \\
+NDWI (Soil Adjusted Vegetation Index)                      & $NDWI = \frac{NIR - SWIR}{NIR + SWIR}$                \\
+SAVI (Soil Adjusted Vegetation Index)                      & $SAVI = \frac{(1 + L)(NIR - RED)}{NIR + RED + L}$                \\
+TVI (Triangular Vegetation Index)                          & $TVI = \frac{120 (NIR - GREEN)}{2} - 200 (RED - GREEN)$                \\
+TNDVI (Transformed Normalized Difference Vegetation Index) & $TNDVI = \sqrt[2]{\frac{NIR - RED}{NIR + RED} + \frac{1}{2}}$               
+\end{tabular}
+\end{table}
+
+\subsection{Anwendungen von GIS-Technologien}
+
 In \textit{Estimating rice nitrogen status with satellite remote sensing in Northeast China} wird eine auf Satellitenbildern aufbauende Analyse des Reisanbaus vorgeschlagen. Dieses Vorgehen hat den Vorteil, dass zum einen die Gebiete nicht mit Sensorknoten bestückt werden müssen - was im Falle von Nassgebieten wie Reisfeldern weitere Probleme bereit hält - und dass die lokalen Messinstrumente nur über längere Zeitperioden verlässliche Daten liefern.\cite{jour:Huang2013} 
 
 \begin{figure}[h]

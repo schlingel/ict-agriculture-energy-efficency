@@ -1,6 +1,53 @@
 % This file was created with JabRef 2.4.1.
 % Encoding: Cp1252
 
+@article{jour:Jackson1991,
+author = {Jackson, RD and Huete, AR},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Interpreting vegetation indices.pdf:pdf},
+journal = {Preventive Veterinary Medicine},
+mendeley-groups = {Bachelor Thesis},
+title = {{Interpreting vegetation indices}},
+url = {http://www.sciencedirect.com/science/article/pii/S0167587705800042},
+year = {1991}
+}
+
+
+@article{jour:Vibhute2013,
+author = {Vibhute, Amol D},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Analysis and Modeling of Agricultural Land use using Remote Sensing and Geographic Information System - a Review.pdf:pdf},
+journal = {International Journal of Engineering Research and Applications (IJERA)},
+keywords = {classification,crop acreage and yield,estimation,precision farming,rs and gis,soil},
+mendeley-groups = {Bachelor Thesis},
+number = {3},
+pages = {81--91},
+title = {{Analysis and Modeling of Agricultural Land use using Remote Sensing and Geographic Information System: a Review}},
+volume = {3},
+year = {2013}
+}
+
+
+@book{book:Carosio2006,
+author = {Carosio, Alessandro},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Geoinformationssysteme.pdf:pdf},
+isbn = {3-906467-02-3},
+mendeley-groups = {Bachelor Thesis},
+publisher = {Institut f\"{u}r Geod\"{a}sie und Photogrammetrie Eidgen\"{o}ssische Technische Hochschule Z\"{u}rich},
+title = {{Geoinformationssysteme Band 1}},
+year = {2006}
+}
+
+
+@inproceedings{conf:Valckenaers2011,
+author = {Valckenaers, P and Belle, J Van},
+booktitle = {IEEE ETFA},
+file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/PROSA and Delegate MAS for Open-Air Engineering Processes.pdf:pdf},
+isbn = {9781457700187},
+mendeley-groups = {Bachelor Thesis},
+title = {{PROSA and Delegate MAS for Open-Air Engineering Processes}},
+year = {2011}
+}
+
+
 @article{jour:Klopffer1997,
 author = {Kl\"{o}pffer, Walter},
 file = {:home/zombie/Dropbox/TU/Bachelor Arbeit Energieeffizenz/Quellen/Life Cycle Assessment - From the Beginning to the Current State.pdf:pdf},

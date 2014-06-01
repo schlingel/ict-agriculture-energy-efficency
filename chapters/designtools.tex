@@ -1,4 +1,4 @@
-\section{Datenquellen für Entscheidungen}
+\section{Automatisierte Entscheidungsfindung}
 
 Die ganzheitliche Planung von Landwirtschaftsbetrieben ist ein komplexes Problem das makroskopische sowie mikroskopische Faktoren einbeziehen muss. Ein sehr früher Ansatz um alle Umwelteinflüsse zu bewerten und die Ergebnisse in einer Optimierung der Prozesse infließen zu lassen, ist das \textit{Life Cycle Assessment}, kurz LCA. Dabei werden alle Einflüsse in den Lebenszyklusphasen des Produkts bzw. Services identifiziert. Das Ergebnis dieses Identifikationsprozesses wird \textit{Inventory Table} genannt. Die identifizierten Bestände werden dann mittels \textit{Life Cycle Inventory Impact Assessment}, kurz LCIA oder LCI, auf Zahlen abgebildet die wiederspiegeln wie viel Einfluss die jeweiligen Faktoren haben. LCIA besteht aus vier Schritten:\cite{jour:Klopffer1997}
 
@@ -38,7 +38,6 @@ In der dritten Welt zeichnet sich durch die Verbreitung von Smartphones einer du
 
 Die Entwicklung der Abdeckung des Mobilfunknetzes in Indien und die gestarteten Projekte zur Steigerung des Ertrags mittels Mobilfunkprojekten wird in \textit{Use of Mobile Technologies for Empowering Small holder farmers in India} vorgestellt. Dabei werden Lösungen wie mKrishi vorgestellt, welches es den Bauern ermöglichen soll per Telephonanruf Fragen bezüglich der Landwirtschaftsarbeit in normaler Sprache zu stellen. \cite{article:Kokate2013}
 
-
 \section{Expertensysteme in der Planung}
 Ein Expertensystem ist ein KI-Programm, dass zwei Rollen annehmen kann.
 \begin{itemize}
@@ -54,7 +53,6 @@ Entscheidend für die Funktionalität des Expertensystems ist, dass ein Kausalmo
  \caption{Architektur der Cloud-basierten Entscheidungshilfe.\cite{jour:Yuan2013}}.
 \end{figure}
 
-
 Lin, Nan, Li, Dongming, Bi und Chunguang stellen in \textit{Research on Development of Corn Production Decision} eine mögliche Architektur für ein System vor, dass bei der Planung und Pflege von Mais helfen soll. Dabei stellen sie folgende Best-Practices vor: 
 \cite{jour:Lin2013}
 
@@ -69,7 +67,16 @@ Das in \textit{A new Expert System for greenness identification in agricultural 
 
 Um die Entscheidungsfindung besser in puncto Effizienz und Geschwindigkeit zu machen wird in \textit{A Semantic Technology Supported Precision Agriculture System: A Case Study for Citrus Fertilizing} ein Cloud basiertes System vorgestellt. \cite{jour:Yuan2013}
 
-
 Yuan, Zeng und Zhang stellen in ihrer Arbeit ein Expertensystem auf Basis eines Wissensbasierten System vor. Dabei werden Daten aus einem Sensornetzwerk als Ontologien abgebildet. Diese werden in der Cloud gespeichert. In der Cloud sitzt auch das Expertensystem, dass in der Lage ist Entscheidung zu treffen. Die Gesamtheit dieses Systems wird auch \textit{Semantic Technology} genannt.\cite{jour:Yuan2013}
 
 Semantic Technology, kurz ST, bezeichnet dabei die Technologie die vorhandene Daten als  Ontologien aufbereiten um automatisiert Entscheidung ableiten zu können. Die in \textit{The Implementation of Layered Sensor Network Based on Semantic Technology} vorgestellte Architektur ST die ein Expertensystem und ein Sensornetzwerk verknüpft wird von Yuan, Zeng und Zhang wiederverwendet.\cite{jour:Liu2012}
+
+\section{Planungswerkzeuge}
+
+\subsection{Planungswerkzeuge für Freiluftunternehmen}
+Im Gegensatz zu Glashäusern sind Felder der Umwelt schutzlos ausgeliefert. Das bedeutet, dass sich die Umweltfaktoren schnell ändern können und nicht alle Faktoren ausgeglichen werden können. (z.B. können Pflanzen nicht gegen Hagel geschützt werden.)
+
+Den Einsatz von Ingenieurswerkzeugen um einen bestimmten Ertrag (z.B. Ernte, Kohle, etc.) zu produzieren werden \textit{Open Air Engineering}-Prozesse genannt. Diese Arbeiten zeichnen sich auch dadurch aus, dass im Betrieb eine Menge von verschiedenen Fahrzeugen und Arbeitern zusammen wirken müssen. (z.B. Mähdrescher, Traktoren um Pflügen, Traktoren um Wasserpumpen zu betreiben, etc.)
+
+In \textit{PROSA and Delegate MAS for Open-Air Engineering Processes} stellen Valckenaers und Belle auf ein Planungskonzept für Open Air Engineering Prozesse vor. Die Basis ist eine Umsetzung der PROSA-Architektur um die im Prozess beteiligten Akteure als Agenten zu modellieren. Diese Agenten können dann in einer Simulation getestet werden um Probleme in der Ausführung erkennen zu können.\cite{conf:Valckenaers2011}
+
